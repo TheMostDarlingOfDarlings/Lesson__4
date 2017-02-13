@@ -1,0 +1,161 @@
+/*Welcome to color theory
+Teal:0EA8B2
+Cyan:89F8FF
+Sky Blue:18F1FF
+Brown:B24800
+Pumpkin:FF7518
+*/
+
+body {
+    background-color:#FFFFFF;
+    color:#0EA8B2;
+    font-family: 'Roboto', sans-serif;
+}
+#head1 {
+    width: 100%;
+    min-height: 80px;
+    background-color: none;
+}
+#head1 > h1 {
+    margin:0;
+    background-color: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    transform: translateY(50%);
+}
+#navigation {
+    width:100%;
+    background-color:#0EA8B2;
+    min-height: 80px;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+#navigation > ul{
+    text-align: center;
+    transform:translateY(50%);
+    padding: 0;
+    margin:0;
+}
+#navigation > ul > button{
+    min-width: 120px;
+    color: #FFFFFF;
+    background-color:#FF7518;
+    border:none;
+    padding: 15px 32px;
+    transition: background-color .15s;
+}
+#navigation > ul > button:hover{
+    background-color:#B24800;
+}
+.menu {
+    background: #d7e6f;
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    margin:0;
+}
+#middle-wrapper-width {
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    max-width:960px;
+    margin:0 auto;
+}
+#aside-content-wrapper{
+    background-color: #fff;
+    width: 35%;
+    font-family: 'Roboto', sans-serif;
+}
+#main-content-wrapper {
+    background-color: white;
+    width: 80%;
+}
+#main-content-wrapper  article p{
+    max-width: 300px;
+    margin: 0 auto;
+}
+#main-content-wrapper  article h2{
+    text-align: center;
+}
+#main-content-wrapper  #skills{
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+#main-content-wrapper  #skills span{
+    font-weight: 400;
+}
+.side-by-side{
+    display:flex;
+}
+.image-content > img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+.image-content > h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #18F1FF;
+}
+.image-content > h4 > a{
+    color: #B24800
+}
+.image-content > h4 > a:hover{
+    color: #FF7518
+}
+#main-content-wrapper .image-content{
+    text-align: center;
+    margin-top: 50px;
+    width: 50%;
+}
+footer{
+    background-color: #B24800;
+    color:#18F1FF;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin:0;
+    min-height: 100px;
+}
+footer > h1 {
+    margin:0;
+    transform: translateY(50%);
+}
+#social{
+    background-image: url(imgs/pistachios.jpg);
+    border-top:5px #18F1FF solid;
+    border-bottom:5px #89F8FF solid;
+}
+#social > ul{
+    display:flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin:0;
+    padding 40px;
+}
+#aside-right{
+    margin:0 50px 0 8px;
+}
+#aside-right h3{
+    text-align: center;
+}
+#latest-work{
+    list-style-type: none;
+}
+#latest-work > li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px black solid;
+}
+#latest-work > li:before{
+    content:'';
+    border-color: transparent #0EA8B2;
+    border-style: solid;
+    border-width: .35em 0 .35em .45em;
+    display: block;
+    height:0;
+    width:0;
+    left: -1em;
+    top:.9em;
+    position:relative;
+}
